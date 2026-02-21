@@ -4,6 +4,10 @@
 
 Convert SafeInCloud DB files to KeePass/KeePassXC compatible `.kdbx` format with **automatic category detection** and **complete data preservation**.
 
+## Why This Tool?
+
+Existing converters like [SIC2KeePass by Alezy](https://github.com/Alezy80/SIC2KeePass) often discard custom fields, leaving you with incomplete data. This tool was built to preserve **everything** - every custom field, attachment, timestamp, and piece of data from your SafeInCloud database.
+
 ---
 
 ## Features

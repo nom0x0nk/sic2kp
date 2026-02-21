@@ -1,8 +1,8 @@
 # sic2kp
 
-Convert SafeInCloud DB files to KeePass/KeePassXC compatible `.kdbx` format with **automatic category detection**.
+**SafeInCloud DB → KeePass/KeePassXC DB without losing any custom fields**
 
-**SafeInCloud DB → KeePass/KeePassXC DB** with intelligent group organization
+Convert SafeInCloud DB files to KeePass/KeePassXC compatible `.kdbx` format with **automatic category detection** and **complete data preservation**.
 
 ---
 

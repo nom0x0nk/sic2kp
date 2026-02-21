@@ -4,6 +4,22 @@
 
 Convert SafeInCloud DB files to KeePass/KeePassXC compatible `.kdbx` format with **automatic category detection** and **complete data preservation**.
 
+## TL;DR
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Convert your database
+python main.py safeincloud.db output.kdbx
+
+# Done! All data, custom fields, and attachments are preserved
+```
+
+**Python 3.10+** | **Windows/Linux/macOS** | **No data loss** ✅
+
+---
+
 ## Why This Tool?
 
 Existing converters like [SIC2KeePass by Alezy](https://github.com/Alezy80/SIC2KeePass) often discard custom fields, leaving you with incomplete data. This tool was built to preserve **everything** - every custom field, attachment, timestamp, and piece of data from your SafeInCloud database.

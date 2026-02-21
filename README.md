@@ -1,5 +1,7 @@
 # sic2kp
 
+![banner](img/banner.webp)
+
 **SafeInCloud DB → KeePass/KeePassXC DB without losing any custom fields**
 
 Convert SafeInCloud DB files to KeePass/KeePassXC compatible `.kdbx` format with **automatic category detection** and **complete data preservation**.
@@ -29,23 +31,23 @@ Existing converters like [SIC2KeePass by Alezy](https://github.com/Alezy80/SIC2K
 ## Features
 
 ### Core Features
-- ✅ **Secure Decryption** - Safely decrypt SafeInCloud databases using AES-256 and PBKDF2 key derivation
-- ✅ **Format Conversion** - Convert to KeePass/KeePassXC compatible `.kdbx` format
-- ✅ **Cross-Platform** - Windows, Linux, and macOS support
-- ✅ **Python 3.10+** - Modern Python support (tested with 3.14)
+- 🔐 **Secure Decryption** - Safely decrypt SafeInCloud databases using AES-256 and PBKDF2 key derivation
+- 🔄 **Format Conversion** - Convert to KeePass/KeePassXC compatible `.kdbx` format
+- 💻 **Cross-Platform** - Windows, Linux, and macOS support
+- 🐍 **Python 3.10+** - Modern Python support (tested with 3.14)
 
 ### Data Handling
-- ✅ **Full Data Preservation** - All fields, custom attributes, and metadata are preserved
-- ✅ **Timestamp Preservation** - Original creation and modification dates are maintained
-- ✅ **Attachment Support** - Binary attachments are converted and stored in KeePass
-- ✅ **Custom Fields** - All custom field types are preserved with automatic protection for sensitive data
-- ✅ **Multi-Password Entries** - Intelligently handles entries with multiple URLs and passwords by splitting them into separate entries
+- 💾 **Full Data Preservation** - All fields, custom attributes, and metadata are preserved
+- ⏰ **Timestamp Preservation** - Original creation and modification dates are maintained
+- 📎 **Attachment Support** - Binary attachments are converted and stored in KeePass
+- 🏷️ **Custom Fields** - All custom field types are preserved with automatic protection for sensitive data
+- 🔑 **Multi-Password Entries** - Intelligently handles entries with multiple URLs and passwords by splitting them into separate entries
 
 ### Smart Organization
-- ✅ **Automatic Categorization** - Keywords-based automatic grouping into 6 categories (Finance, Social, Shopping, Gaming, Work, Email)
-- ✅ **Original Group Structure** - Preserves your existing SafeInCloud labels/groups
-- ✅ **Duplicate Handling** - Automatically resolves duplicate entry names with numbered suffixes
-- ✅ **Icon Mapping** - Maps field types to appropriate KeePass icons:
+- 🎯 **Automatic Categorization** - Keywords-based automatic grouping into 6 categories (Finance, Social, Shopping, Gaming, Work, Email)
+- 📁 **Original Group Structure** - Preserves your existing SafeInCloud labels/groups
+- 🔀 **Duplicate Handling** - Automatically resolves duplicate entry names with numbered suffixes
+- 🎨 **Icon Mapping** - Maps field types to appropriate KeePass icons:
   - 🌐 Website/URL fields
   - 📧 Email addresses
   - 💳 Credit cards
@@ -54,10 +56,10 @@ Existing converters like [SIC2KeePass by Alezy](https://github.com/Alezy80/SIC2K
   - 📄 Membership/ID fields
 
 ### Security Features
-- ✅ **Protected Fields** - Password fields automatically marked as protected in KeePass
-- ✅ **Optional Keyfile** - Support for additional keyfile-based protection
-- ✅ **Password Confirmation** - Confirmation prompt when setting new KeePass password
-- ✅ **Secure Extraction** - No temporary files; data stays in memory during processing
+- 🔒 **Protected Fields** - Password fields automatically marked as protected in KeePass
+- 🗝️ **Optional Keyfile** - Support for additional keyfile-based protection
+- ✔️ **Password Confirmation** - Confirmation prompt when setting new KeePass password
+- ⚡ **Secure Extraction** - No temporary files; data stays in memory during processing
 
 ## Requirements
 

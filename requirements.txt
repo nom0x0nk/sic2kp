@@ -1,0 +1,4 @@
+pycryptodomex
+xmltodict
+passlib
+pykeepass
